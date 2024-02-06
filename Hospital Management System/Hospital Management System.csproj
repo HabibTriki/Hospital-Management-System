@@ -169,16 +169,12 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="CollectionViewModels\AmbulanceCollection.cs" />
-    <Compile Include="CollectionViewModels\AppointmentCollection.cs" />
     <Compile Include="CollectionViewModels\CollectionOfAll.cs" />
     <Compile Include="CollectionViewModels\DoctorCollection.cs" />
     <Compile Include="CollectionViewModels\DoctorIndexCollection.cs" />
     <Compile Include="CollectionViewModels\PrescriptionCollection.cs" />
     <Compile Include="CollectionViewModels\ScheduleCollection.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\AdminController.cs" />
-    <Compile Include="Controllers\DoctorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PatientController.cs" />
@@ -186,12 +182,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Ambulance.cs" />
-    <Compile Include="Models\AmbulanceDriver.cs" />
-    <Compile Include="Models\Announcement.cs" />
     <Compile Include="Models\Appointment.cs" />
     <Compile Include="Models\Complaint.cs" />
-    <Compile Include="Models\DeleteAnnouncementOnExpire.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\DepartmentStatus.cs" />
     <Compile Include="Models\Doctor.cs" />
@@ -353,7 +345,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />

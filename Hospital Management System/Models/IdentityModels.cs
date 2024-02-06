@@ -26,15 +26,13 @@ namespace Hospital_Management_System.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Department> Department { get; set; }
-        public DbSet<AmbulanceDriver> AmbulanceDrivers { get; set; }
-        public DbSet<Ambulance> Ambulances { get; set; }
+
         public DbSet<Medicine> Medicines { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<Prescription> Prescription { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
-        public DbSet<Announcement> Announcements { get; set; }
         public DbSet<Complaint> Complaints { get; set; }
 
         public ApplicationDbContext()
